@@ -32,7 +32,7 @@ Aspect-Based Sentiment Analysis (ABSA) identifies aspects and their correspondin
 ## Hotel Britannia Results
 Below is a summary of the results, with the top 50 aspects ranked according to frequency, then manually grouped into the table's categories. The 2 categories with the worst average scores are identified, and within the 2 worst categories, the aspects with the highest frequency of negative sentiment is found.
 
-<img src="https://github.com/amandalim857/hotel_reviews_absa/assets/54029190/5ee47c2f-9b64-45f6-a575-34b37711dc8e" width=70% height=70%>
+<img src="https://github.com/amandalim857/hotel_reviews_absa/assets/54029190/5ee47c2f-9b64-45f6-a575-34b37711dc8e" width=80% height=80%>
 </br>
 </br>
 
