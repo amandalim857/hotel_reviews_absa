@@ -22,12 +22,17 @@ Aspect-Based Sentiment Analysis (ABSA) identifies aspects and their correspondin
 | bar           | service       |   rates       |   clean       |    shower     |    near       |
 
 
-3. Infer the results of Britannia reviews from the model, the aspects were sorted into the predefined categories in the table and each category assigned a rating based on the formula: $$\frac{[(positive freq) + negative freq(-1)]} {aspect freq}$$
+3. Infer the results of Britannia reviews from the model, the aspects were sorted into the predefined categories in the table above and each category assigned a rating based on the formula: $$Average Score = \frac{[(positive freq) + negative freq(-1)]} {aspect freq}$$
+4. Single out the lowest scoring category and within it, find the respective aspects with the highest frequency of negative sentiments presented. This will present the areas that needs the most improvement on.
 
 ## Usage of .ipynb file
 - Access the ipynb file, and load the files from `/resources`. 
 - The files in `/resources` are all the initial data used in the project; `/resources/output` are the files generated throughout the pipeline process as output for other functions or as final output (for example, the model checkpoints created after training, or the inference json results etc) 
 
+## Hotel Britannia Results
+- Below is a summary of the results, with the top 50 aspects ranked according to frequency, then manually grouped into the table's categories. The 2 categories with the worst average scores are identified, and within the 2 worst categories, the aspects with the highest frequency of negative sentiment is found.
+<img src="https://github.com/amandalim857/hotel_reviews_absa/assets/54029190/5ee47c2f-9b64-45f6-a575-34b37711dc8e" width=50% height=50%>
+- In conclusion, room quality and food can be improved upon the most. Within room quality, that would mean improving the conditions of the shower, the air-conditioners and the wifi. For food, the breakfast could be better. The hotel staff can then focus on these areas by explicitly asking guests face-to-face what exactly contributes to the poor opinion of the respective categories.
 ## Limitations and future improvements
 -  The main constraints are due to the limited labelled data available. Data Augmentation can be used in future expansions to generate larger amounts of data for training.
 - A better weighted formula could be used to more accurately determine the average of scores.
