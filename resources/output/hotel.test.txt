@@ -1,0 +1,36 @@
+If you get a $T$ with a stove dont cook except dishes, pots and pans they do not provide them you have to buy your own.
+suite
+negative
+Great $T$, great location, great price
+hotel
+positive
+Great hotel, great $T$, great price
+location
+positive
+Great $T$, great location, great price
+hotel
+positive
+I had a great time at this $T$ and did not experience any of what the bad reviews are about.
+hotel
+positive
+The $T$ was very friendly and helpful, the rooms were large and comfortable, the free breakfast was great, and the location downtown was excellent.
+staff
+positive
+The staff was very friendly and helpful, the $T$ were large and comfortable, the free breakfast was great, and the location downtown was excellent.
+rooms
+positive
+The staff was very friendly and helpful, the $T$ were large and comfortable, the free breakfast was great, and the location downtown was excellent.
+rooms
+positive
+The staff was very friendly and helpful, the rooms were large and comfortable, the free $T$ was great, and the location downtown was excellent.
+breakfast
+positive
+The staff was very friendly and helpful, the rooms were large and comfortable, the free $T$ was great, and the location downtown was excellent.
+breakfast
+positive
+The staff was very friendly and helpful, the rooms were large and comfortable, the free breakfast was great, and the $T$ downtown was excellent.
+location
+positive
+I would highly recommend this $T$ to anyone wanting to stay in downtown Phoenix.
+hotel
+positive
